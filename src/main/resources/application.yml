@@ -1,6 +1,6 @@
 spring:
   application:
-    name: eureka-service
+    name: eureka
 
 server:
   port: 9091
@@ -9,4 +9,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     service-url:
-      defaultZone: http://localhost:9091/eureka
+      defaultZone: http://localhost:9091/eureka/
